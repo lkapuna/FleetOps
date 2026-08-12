@@ -1,117 +1,318 @@
 <!doctype html>
 <html lang="he" dir="rtl">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="FleetOps – פתרון מנוהל למשלוחים גדולים בעיר הצפופה. צי ייעודי, עובדים שכירים, תפעול ובקרה.">
-<meta name="theme-color" content="#07192d">
-<title>FleetOps | משלוחים גדולים בעיר</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="FleetOps – Fleet as a Service. פתרונות צי, תפעול ושליחויות גדולות באזורים עירוניים צפופים." />
+  <meta name="theme-color" content="#0a1c36" />
+  <title>FleetOps | Fleet as a Service</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-<header>
- <div class="container nav">
-   <a class="logo" href="#top"><span class="mark">F</span><span>Fleet<span>Ops</span></span><small>FLEET AS A SERVICE</small></a>
-   <button class="menu" aria-label="תפריט">☰</button>
-   <nav>
-    <a href="#about">מי אנחנו</a><a href="#solution">הפתרון</a><a href="#why">למה אנחנו</a>
-    <a href="#fleet">הצי שלנו</a><a href="#contact">צור קשר</a>
-   </nav>
- </div>
-</header>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#top" aria-label="FleetOps">
+        <img src="assets/fleetops-logo.png" alt="FleetOps" />
+      </a>
 
-<main id="top">
-<section class="hero">
- <div class="shade"></div>
- <div class="container hero-inner">
-  <div class="hero-copy">
-   <span class="tag">FLEET AS A SERVICE</span>
-   <h1>אנחנו מביאים<br><em>משלוחים גדולים</em><br>בתוך העיר הצפופה.</h1>
-   <h3>מהיר יותר. חכם יותר. מנוהל.</h3>
-   <p>FleetOps נותנת פתרון מלא להזמנות גדולות ומרובות שקיות במרחב העירוני. במקום רכב מסחרי שמתקשה בפקקים ובחניה, אנחנו מפעילים צי מטען קומפקטי וייעודי יחד עם עובדים שכירים שלנו, ניהול, בקרה ותפעול מלא.</p>
-   <div class="actions"><a class="btn whatsapp generic-wa" href="#">דברו איתנו בוואטסאפ</a><a class="btn outline" href="#solution">גלו עוד ↓</a></div>
-  </div>
- </div>
-</section>
+      <button class="menu-toggle" aria-label="פתיחת תפריט" aria-expanded="false">☰</button>
 
-<section id="solution" class="section">
- <div class="container">
-  <div class="heading"><span>THE URBAN DELIVERY GAP</span><h2>הבעיה שלכם. <b>הפתרון שלנו.</b></h2>
-  <p>משלוח גדול בעיר דורש משהו אחר: יותר נפח מקטנוע רגיל, אבל יותר גמישות מרכב מסחרי.</p></div>
-  <div class="problems">
-   <article><i>🛒</i><h3>סופרים ורשתות</h3><p>הזמנות מרובות שקיות, Click & Collect ומשלוחים ללקוחות מהסניף.</p></article>
-   <article><i>📦</i><h3>משלוחים גדולים</h3><p>מספר שקיות, ארגזים ומוצרים שלא מתאימים לפתרון שליחויות רגיל.</p></article>
-   <article><i>🚗</i><h3>עיר צפופה</h3><p>פקקים, חניה מוגבלת, רחובות עמוסים וזמן יקר בין נקודות.</p></article>
-   <article><i>⏱</i><h3>ציפיות לקוח</h3><p>אספקה מהירה, עקבית ומדידה גם כשההזמנה גדולה יותר.</p></article>
-  </div>
- </div>
-</section>
+      <nav class="nav-links">
+        <a href="#solution">הפתרון</a>
+        <a href="#how">איך זה עובד</a>
+        <a href="#fleet">הצי</a>
+        <a href="#why">למה FleetOps</a>
+        <a href="#contact" class="nav-cta">דברו איתנו</a>
+      </nav>
+    </div>
+  </header>
 
-<section id="about" class="dark section">
- <div class="container">
-  <div class="heading light"><span>FULLY MANAGED</span><h2>לא כוח אדם. <b>מערך משלוחים מנוהל.</b></h2></div>
-  <div class="features">
-   <article><strong>01</strong><h3>עובדים שכירים שלנו</h3><p>אנחנו מגייסים, קולטים ומעסיקים ישירות את השליחים. ניהול שכר, הכשרות, משמרות, גיבויים ושימור נמצאים אצלנו.</p></article>
-   <article><strong>02</strong><h3>צי ייעודי</h3><p>כלי מטען שנבחרים לפי נפח, משקל, אזור הפעילות ותפוקת השירות הנדרשת.</p></article>
-   <article><strong>03</strong><h3>תפעול ובקרה</h3><p>ניהול משמרות, Dispatch, טיפול בחריגים, זמינות צי ועמידה ביעדי SLA.</p></article>
-   <article><strong>04</strong><h3>Scale לפי הצורך</h3><p>מתחילים בפיילוט ומרחיבים את המערך בהתאם לביקוש ולביצועים בפועל.</p></article>
-  </div>
- </div>
-</section>
+  <main id="top">
+    <section class="hero">
+      <div class="hero-glow hero-glow-1"></div>
+      <div class="hero-glow hero-glow-2"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow">FLEET AS A SERVICE</div>
+          <h1>משלוחים גדולים.<br><span>טביעת רגל קטנה.</span></h1>
+          <p>
+            העיר צפופה, החניה מוגבלת וההזמנות הולכות וגדלות. FleetOps נותנת פתרון ייעודי למשלוחים גדולים בתוך המרחב העירוני באמצעות צי קומפקטי, מהיר ומנוהל מקצה לקצה. אנחנו דואגים לכל התפעול עבורכם.
+          </p>
 
-<section id="why" class="section soft">
- <div class="container">
-  <div class="heading"><span>WHO IT'S FOR</span><h2>מתאים לעסקים עם <b>נפח משלוחים משמעותי</b></h2></div>
-  <div class="audiences">
-   <article>🛒<h3>סופרמרקטים ורשתות מזון</h3><p>משלוחים גדולים מהסניף ישירות ללקוח.</p></article>
-   <article>🛍️<h3>חנויות וקמעונאות</h3><p>הזמנות מרובות פריטים ומשלוח מהיר בעיר.</p></article>
-   <article>🍴<h3>מסעדות וקייטרינג</h3><p>הזמנות גדולות ומשלוחים עסקיים.</p></article>
-   <article>🏢<h3>עסקים וחברות</h3><p>הפצה עירונית קבועה ומנוהלת.</p></article>
-  </div>
- </div>
-</section>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">בואו נבנה לכם מערך</a>
+            <a class="btn btn-secondary" href="#solution">איך זה עובד?</a>
+          </div>
 
-<section id="fleet" class="section">
- <div class="container fleet">
-  <div>
-   <span class="tag blue">PURPOSE-BUILT FLEET</span>
-   <h2>צי שמתאים לעיר,<br>לא להפך.</h2>
-   <p>קטנועי מטען, אופני מטען וכלים עירוניים קומפקטיים מאפשרים להוביל יותר בלי לאבד את היתרון של כלי קטן וגמיש.</p>
-   <ul><li>נפח אחסון גדול</li><li>תנועה יעילה במרחב העירוני</li><li>פתרונות חשמליים</li><li>תחזוקה וכלי גיבוי</li><li>אפשרות למיתוג הלקוח</li></ul>
-  </div>
-  <div class="visual"><img src="assets/fleetops-hero.png" alt="FleetOps משלוחים גדולים בעיר"></div>
- </div>
-</section>
+          <div class="hero-proof">
+            <div><strong>XL</strong><span>משלוחים מרובי שקיות</span></div>
+            <div><strong>FaaS</strong><span>צי כשירות מנוהל</span></div>
+            <div><strong>SLA</strong><span>שליטה ובקרה תפעולית</span></div>
+          </div>
+        </div>
 
-<section id="contact" class="section contact">
- <div class="container contact-grid">
-  <div class="contact-copy">
-   <span class="tag blue">LET'S TALK</span>
-   <h2>בואו נבנה את הצי הבא שלכם</h2>
-   <p>מלאו את הפרטים. בלחיצה על הכפתור ייפתח WhatsApp עם הפרטים שמילאתם והודעה מוכנה לשליחה אלינו.</p>
-   <div class="brand-block"><b>FleetOps</b><span>Fleet as a Service</span><span>Large Orders. Small Footprint.</span></div>
-  </div>
-  <form id="waForm">
-   <label>שם מלא<input id="name" required placeholder="השם שלך"></label>
-   <label>חברה<input id="company" placeholder="שם החברה"></label>
-   <label>טלפון<input id="phone" required inputmode="tel" placeholder="05X-XXXXXXX"></label>
-   <label>סוג הפעילות / הצורך<textarea id="message" rows="4" placeholder="לדוגמה: סופרמרקט, כמות משלוחים יומית, אזור פעילות, מספר שקיות..."></textarea></label>
-   <button class="btn whatsapp full" type="submit">שלחו את הפרטים בוואטסאפ</button>
-   <small>הטופס אינו שומר מידע באתר. הפרטים מועברים ל־WhatsApp רק לאחר לחיצה על הכפתור.</small>
-  </form>
- </div>
-</section>
-</main>
+        <div class="hero-visual reveal">
+          <div class="image-card">
+            <img src="assets/urban-traffic-hero.png" alt="קטנוע לבן של FleetOps מתקדם בין עומסי תנועה בעיר" />
+            <div class="image-label">
+              <span class="status-dot"></span>
+              צי עירוני ייעודי
+            </div>
+          </div>
 
-<footer>
- <div class="container footer">
-  <div class="footer-logo"><b>Fleet<span>Ops</span></b><small>Fleet as a Service</small></div>
-  <div>© כל הזכויות שמורות<br><b>L.K Consulting</b></div>
-  <div class="version"><span class="dot"></span><b>גרסה עדכנית: v1.2.0</b><small>FleetOps Website</small></div>
- </div>
-</footer>
-<script src="script.js"></script>
-</body></html>
+          <div class="floating-card float-top">
+            <span>FleetOps Control</span>
+            <strong>End-to-End</strong>
+          </div>
+
+          <div class="floating-card float-bottom">
+            <span>Large Orders</span>
+            <strong>Urban Ready</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div class="container trust-inner">
+        <span>מתאים ל־</span>
+        <strong>קמעונאות</strong>
+        <strong>מזון</strong>
+        <strong>פארם</strong>
+        <strong>סופרמרקטים</strong>
+        <strong>Last Mile</strong>
+        <strong>משלוחים עסקיים</strong>
+      </div>
+    </section>
+
+    <section id="solution" class="section">
+      <div class="container">
+        <div class="urban-problem reveal">
+          <div>
+            <span class="eyebrow">THE URBAN DELIVERY GAP</span>
+            <h2>משלוחים גדולים בתוך עיר צפופה דורשים פתרון אחר.</h2>
+          </div>
+          <p>
+            הזמנה של כמה שקיות, ארגזים או משקל משמעותי כבר לא מתאימה לשליח רגיל. רכב מסחרי, מצד שני, נתקע בפקקים ומתקשה בחניה. FleetOps מגשרת על הפער עם כלי מטען קומפקטיים שמאפשרים לנוע ביעילות בתוך העיר, לצד מערך עובדים שכירים, בקרה ותפעול מלא.
+          </p>
+        </div>
+        <div class="section-heading reveal">
+          <div class="eyebrow">THE SOLUTION</div>
+          <h2>לא עוד ספק שליחים.<br>מערך תפעולי שלם.</h2>
+          <p>
+            אתם מגדירים את היקף הפעילות ויעדי השירות. אנחנו לוקחים אחריות מלאה על הביצוע: מגייסים ומעסיקים את העובדים כשכירים שלנו, מעמידים צי ייעודי, מנהלים משמרות, תחזוקה, בקרה ועמידה ביעדים.
+          </p>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card reveal">
+            <div class="icon">⚡</div>
+            <h3>צי ייעודי</h3>
+            <p>התאמת כלי רכב לנפח, משקל, טווח ומאפייני האזור העירוני.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="icon">👥</div>
+            <h3>עובדים שכירים שלנו</h3>
+            <p>השליחים מועסקים ישירות על ידי FleetOps. אנחנו אחראים לגיוס, קליטה, שכר, הכשרה, משמרות, גיבויים ושימור כוח האדם.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="icon">📍</div>
+            <h3>מוקד ותפעול</h3>
+            <p>שליטה בזמן אמת, טיפול בחריגים, Dispatch וניהול SLA.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="icon">🔧</div>
+            <h3>תחזוקה וזמינות</h3>
+            <p>טיפולים, ביטוחים, טעינה, כלי גיבוי וצמצום downtime.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="icon">📊</div>
+            <h3>KPI ודאטה</h3>
+            <p>מדידת תפוקה, זמני אספקה, זמינות צי ועלות לכל משלוח.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="icon">↗</div>
+            <h3>Scale מהיר</h3>
+            <p>מתחילים בפיילוט ומרחיבים את המערך בהתאם לביקוש בפועל.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="section section-dark">
+      <div class="container">
+        <div class="section-heading light reveal">
+          <div class="eyebrow">HOW IT WORKS</div>
+          <h2>Fleet as a Service</h2>
+          <p>מודל פשוט ללקוח. מערכת תפעולית מלאה מאחורי הקלעים.</p>
+        </div>
+
+        <div class="steps">
+          <div class="step reveal">
+            <div class="step-number">01</div>
+            <h3>מגדירים צורך</h3>
+            <p>היקף משלוחים, אזור פעילות, שעות, SLA ונפח המטען.</p>
+          </div>
+          <div class="step reveal">
+            <div class="step-number">02</div>
+            <h3>בונים צי</h3>
+            <p>בחירת הכלים, כמות, גיבוי, אחסנה, טעינה ותחזוקה.</p>
+          </div>
+          <div class="step reveal">
+            <div class="step-number">03</div>
+            <h3>מפעילים צוות</h3>
+            <p>גיוס והכשרה של שליחים לצד מנהלי משמרת ובקרה.</p>
+          </div>
+          <div class="step reveal">
+            <div class="step-number">04</div>
+            <h3>מודדים ומתרחבים</h3>
+            <p>KPI, ביצועים, Unit Economics והגדלת פעילות לפי הצורך.</p>
+          </div>
+        </div>
+
+        <div class="formula reveal">
+          <span>Vehicle</span><b>+</b><span>Courier</span><b>+</b><span>Operations</span><b>+</b>
+          <span>SLA</span><b>+</b><span>Data</span><b>=</b><strong>FleetOps</strong>
+        </div>
+      </div>
+    </section>
+
+    <section id="fleet" class="section">
+      <div class="container split">
+        <div class="fleet-image reveal">
+          <img src="assets/cargo-scooter.png" alt="קטנוע מטען לבן של FleetOps" />
+          <div class="fleet-image-caption">פתרונות מותאמים לאזורים צפופים ולמשלוחים בנפח גדול</div>
+        </div>
+
+        <div class="fleet-copy reveal">
+          <div class="eyebrow">PURPOSE-BUILT FLEET</div>
+          <h2>הכלי הנכון לכל משימה</h2>
+          <p>
+            קטנועי מטען, אופני מטען, תלת־אופן ורכבים עירוניים קומפקטיים.
+            הבחירה נעשית לפי הביצועים הנדרשים, ולא לפי כלי אחד קבוע.
+          </p>
+
+          <ul class="check-list">
+            <li>נפח אחסון גדול יותר מכלי שליחויות רגיל</li>
+            <li>התאמה לרחובות צפופים וחניה עירונית</li>
+            <li>אפשרות לצי חשמלי וחסכוני</li>
+            <li>יכולת מיתוג מלאה עבור הלקוח</li>
+            <li>כלי גיבוי ותוכנית תחזוקה מובנית</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="why" class="section section-soft">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div class="eyebrow">WHY FLEETOPS</div>
+          <h2>כתובת אחת לכל המערך</h2>
+        </div>
+
+        <div class="why-grid">
+          <div class="metric reveal">
+            <strong>1</strong>
+            <span>גורם אחראי מול הלקוח</span>
+          </div>
+          <div class="metric reveal">
+            <strong>360°</strong>
+            <span>ניהול מקצה לקצה</span>
+          </div>
+          <div class="metric reveal">
+            <strong>24/7</strong>
+            <span>יכולת בקרה לפי מתווה השירות</span>
+          </div>
+          <div class="metric reveal">
+            <strong>Scale</strong>
+            <span>מהפיילוט למאות ואלפי משלוחים</span>
+          </div>
+        </div>
+
+        <div class="quote-card reveal">
+          <p>
+            “במקום לנהל ספקי רכב, שליחים, תחזוקה, משמרות ומערכות בנפרד —
+            הלקוח מקבל יחידת תפעול אחת עם אחריות ברורה על התוצאה.”
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="container cta-box reveal">
+        <div>
+          <div class="eyebrow">START WITH A PILOT</div>
+          <h2>יש לכם משלוחים שלא מתאימים לצי הרגיל?</h2>
+          <p>נבנה עבורכם פיילוט ייעודי ונמדוד ביצועים לפני הרחבה.</p>
+        </div>
+        <a class="btn btn-white" href="#contact">אני רוצה לשמוע עוד</a>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal">
+          <div class="eyebrow">LET'S TALK</div>
+          <h2>בואו נבנה את הצי הבא שלכם</h2>
+          <p>
+            השאירו פרטים ונחזור אליכם לבחינת הצורך, נפח הפעילות והמתווה המתאים.
+          </p>
+
+          <div class="contact-note">
+            <strong>FleetOps</strong>
+            <span>Fleet as a Service</span>
+            <span>Large Orders. Small Footprint.</span>
+            <a class="btn whatsapp-btn generic-wa" href="#">פתיחת WhatsApp וקבלת פרטים</a>
+          </div>
+        </div>
+
+        <form class="lead-form reveal" id="leadForm">
+          <label>
+            שם מלא
+            <input type="text" name="name" required placeholder="השם שלך">
+          </label>
+
+          <label>
+            חברה
+            <input type="text" name="company" placeholder="שם החברה">
+          </label>
+
+          <div class="form-row single-field">
+            <label>
+              טלפון
+              <input type="tel" name="phone" required placeholder="05X-XXXXXXX">
+            </label>
+          </div>
+
+          <label>
+            ספרו לנו בקצרה על הצורך
+            <textarea name="message" rows="4" placeholder="כמות משלוחים, אזור פעילות, סוג המטען..."></textarea>
+          </label>
+
+          <button type="submit" class="btn btn-primary submit-btn">שליחת הפרטים ב־WhatsApp</button>
+          <p class="form-status" id="formStatus">בלחיצה ייפתח WhatsApp עם הפרטים שמילאתם והודעה מוכנה לשליחה.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div>
+        <strong>FleetOps</strong>
+        <span>Fleet as a Service</span>
+      </div>
+      <div class="footer-copy">
+        גרסה עדכנית: <strong>v1.2.1</strong><br>
+        © <span id="year"></span> כל הזכויות שמורות | <strong>L.K Consulting</strong>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
