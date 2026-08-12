@@ -1,303 +1,310 @@
 <!doctype html>
 <html lang="he" dir="rtl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="מתן לוגיסטיקה - שליחויות, ניהול שליחים, רכבי קירור, משאיות, אחסון ופתרונות לוגיסטיקה בפריסה ארצית."
-    />
-    <title>מתן לוגיסטיקה | פתרונות שליחויות ולוגיסטיקה לכל הארץ</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css?v=20260623-2" />
-  </head>
-  <body>
-    <header class="site-header" aria-label="ניווט ראשי">
-      <a class="brand" href="#top" aria-label="מתן לוגיסטיקה">
-        <span class="brand-mark">מ</span>
-        <span>
-          <strong>מתן לוגיסטיקה</strong>
-          <small>שליחות. אחסון. פתרונות.</small>
-        </span>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="FleetOps – Fleet as a Service. פתרונות צי, תפעול ושליחויות גדולות באזורים עירוניים צפופים." />
+  <meta name="theme-color" content="#0a1c36" />
+  <title>FleetOps | Fleet as a Service</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#top" aria-label="FleetOps">
+        <img src="assets/fleetops-logo.png" alt="FleetOps" />
       </a>
-      <nav class="main-nav" aria-label="קישורי עמוד">
-        <a href="#services">שירותים</a>
-        <a href="#clients">לקוחות</a>
-        <a href="#contact">יצירת קשר</a>
+
+      <button class="menu-toggle" aria-label="פתיחת תפריט" aria-expanded="false">☰</button>
+
+      <nav class="nav-links">
+        <a href="#solution">הפתרון</a>
+        <a href="#how">איך זה עובד</a>
+        <a href="#fleet">הצי</a>
+        <a href="#why">למה FleetOps</a>
+        <a href="#contact" class="nav-cta">דברו איתנו</a>
       </nav>
-      <a class="header-cta" href="#contact">השאירו פרטים</a>
-    </header>
+    </div>
+  </header>
 
-    <main id="top">
-      <section class="hero" aria-label="מתן לוגיסטיקה">
-        <img
-          class="hero-image"
-          src="assets/matan-logistics-hero.png?v=20260623-2"
-          alt="רכבי שילוח, משאית קירור ושליח קטנוע במרכז לוגיסטי"
-        />
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
-          <p class="eyebrow">פריסה ארצית | משלוחים מהיום להיום | שירות אישי</p>
-          <h1>לוגיסטיקה שמגיעה בזמן, עם בעל בית שמדבר איתכם ישירות.</h1>
-          <p class="hero-copy">
-            מתן לוגיסטיקה מספקת פתרונות אחסון, שליחויות, ניהול שליחים, רכבי קירור,
-            משאיות, אחסון והפצה לעסקים שצריכים שקט תפעולי ועמידה אמיתית בזמנים.
+  <main id="top">
+    <section class="hero">
+      <div class="hero-glow hero-glow-1"></div>
+      <div class="hero-glow hero-glow-2"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow">FLEET AS A SERVICE</div>
+          <h1>משלוחים גדולים.<br><span>טביעת רגל קטנה.</span></h1>
+          <p>
+            FleetOps מקימה ומפעילה עבור חברות מערך משלוחים ייעודי מקצה לקצה:
+            כלי רכב, שליחים, תפעול, תחזוקה, בקרה ועמידה ב־SLA.
           </p>
+
           <div class="hero-actions">
-            <a class="primary-btn" href="#contact">קבלו הצעת שירות</a>
-            <a class="secondary-btn" href="#services">ראו פתרונות</a>
+            <a class="btn btn-primary" href="#contact">בואו נבנה לכם מערך</a>
+            <a class="btn btn-secondary" href="#solution">איך זה עובד?</a>
           </div>
-          <div class="hero-metrics" aria-label="מדדי פעילות">
-            <span><strong>24/7</strong> מענה תפעולי</span>
-            <span><strong>100%</strong> פריסה ארצית</span>
-            <span><strong>Same Day</strong> מהיום להיום</span>
+
+          <div class="hero-proof">
+            <div><strong>XL</strong><span>משלוחים מרובי שקיות</span></div>
+            <div><strong>FaaS</strong><span>צי כשירות מנוהל</span></div>
+            <div><strong>SLA</strong><span>שליטה ובקרה תפעולית</span></div>
           </div>
         </div>
-      </section>
 
-      <section class="trust-strip" aria-label="חברות שעובדות עם מתן לוגיסטיקה">
-        <div class="trust-copy">
-          <p class="section-kicker">אמון של מותגים פעילים</p>
-          <h2>מערכי שילוח יומיים לרשתות, מסעדות ומשרדים.</h2>
-        </div>
-        <div class="client-list" aria-label="לוגואים של לקוחות">
-          <figure class="client-logo-card" aria-label="Arcaffe">
-            <svg class="client-logo-svg" viewBox="0 0 240 92" role="img" aria-label="Arcaffe">
-              <text x="96" y="58" text-anchor="middle" class="arcaffe-word">ARCAFFE</text>
-              <g class="arcaffe-bean" transform="translate(174 20)">
-                <path d="M18 8c21 5 34 19 30 36-3 13-16 22-32 20C7 63 0 56 2 46 5 29 17 21 18 8Z" />
-                <path d="M18 9c-3 19 4 39 29 45" />
-                <path d="M20 0v16M31 2l-3 17M42 7l-7 16" />
-              </g>
-            </svg>
-          </figure>
-          <figure class="client-logo-card jems-card" aria-label="JEMS Beer Factory">
-            <svg class="client-logo-svg" viewBox="0 0 240 92" role="img" aria-label="JEMS Beer Factory">
-              <rect x="12" y="10" width="216" height="72" rx="8" />
-              <g class="jems-sun" transform="translate(120 25)">
-                <circle r="11" />
-                <path d="M0-22v8M15-15l-6 6M22 0h-8M15 15l-6-6M0 22v-8M-15 15l6-6M-22 0h8M-15-15l6 6" />
-              </g>
-              <text x="120" y="58" text-anchor="middle" class="jems-word">JEM'S</text>
-              <text x="120" y="77" text-anchor="middle" class="jems-sub">BEER FACTORY</text>
-            </svg>
-          </figure>
-          <figure class="client-logo-card" aria-label="Refresh Supermarket">
-            <svg class="client-logo-svg" viewBox="0 0 240 92" role="img" aria-label="Refresh Supermarket">
-              <path class="refresh-leaf" d="M91 15c26-13 54-6 66 3-25 4-43 17-56 39-10-10-14-25-10-42Z" />
-              <text x="120" y="58" text-anchor="middle" class="refresh-word">refresh</text>
-              <text x="120" y="78" text-anchor="middle" class="refresh-sub">SUPERMARKET</text>
-            </svg>
-          </figure>
-          <figure class="client-logo-card" aria-label="מתוקה">
-            <svg class="client-logo-svg" viewBox="0 0 240 92" role="img" aria-label="מתוקה">
-              <g class="matuka-flower" transform="translate(62 25)">
-                <circle cx="0" cy="-13" r="13" />
-                <circle cx="12" cy="0" r="13" />
-                <circle cx="0" cy="13" r="13" />
-                <circle cx="-12" cy="0" r="13" />
-                <circle cx="0" cy="0" r="9" />
-              </g>
-              <text x="140" y="58" text-anchor="middle" class="matuka-word">מתוקה</text>
-              <text x="140" y="75" text-anchor="middle" class="matuka-sub">קונדיטוריה איכותית</text>
-            </svg>
-          </figure>
-          <figure class="client-logo-card" aria-label="דרור כלי עבודה">
-            <svg class="client-logo-svg" viewBox="0 0 240 92" role="img" aria-label="דרור כלי עבודה">
-              <rect x="30" y="20" width="180" height="52" rx="5" class="dror-box" />
-              <path class="dror-tool" d="M58 64l32-32 12 12-32 32zM88 31l9-9 17 17-9 9z" />
-              <text x="140" y="55" text-anchor="middle" class="dror-word">דרור</text>
-              <text x="140" y="73" text-anchor="middle" class="dror-sub">כלי עבודה</text>
-            </svg>
-          </figure>
-          <figure class="client-logo-card" aria-label="ZER4U">
-            <svg class="client-logo-svg" viewBox="0 0 240 92" role="img" aria-label="ZER4U">
-              <g class="zer-flower" transform="translate(55 43)">
-                <ellipse rx="9" ry="18" transform="rotate(0)" />
-                <ellipse rx="9" ry="18" transform="rotate(60)" />
-                <ellipse rx="9" ry="18" transform="rotate(120)" />
-                <circle r="8" />
-              </g>
-              <text x="140" y="58" text-anchor="middle" class="zer-word">ZER4U</text>
-            </svg>
-          </figure>
-        </div>
-      </section>
+        <div class="hero-visual reveal">
+          <div class="image-card">
+            <img src="assets/cargo-scooter.png" alt="קטנוע מטען עירוני" />
+            <div class="image-label">
+              <span class="status-dot"></span>
+              צי עירוני ייעודי
+            </div>
+          </div>
 
-      <section class="intro-section">
-        <div class="intro-text">
-          <p class="section-kicker">חברה מבוססת לעסקים שלא יכולים להרשות לעצמם עיכובים</p>
-          <h2>מערך לוגיסטי גמיש שמרגיש כמו חלק מהצוות שלכם.</h2>
+          <div class="floating-card float-top">
+            <span>FleetOps Control</span>
+            <strong>End-to-End</strong>
+          </div>
+
+          <div class="floating-card float-bottom">
+            <span>Large Orders</span>
+            <strong>Urban Ready</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div class="container trust-inner">
+        <span>מתאים ל־</span>
+        <strong>קמעונאות</strong>
+        <strong>מזון</strong>
+        <strong>פארם</strong>
+        <strong>סופרמרקטים</strong>
+        <strong>Last Mile</strong>
+        <strong>משלוחים עסקיים</strong>
+      </div>
+    </section>
+
+    <section id="solution" class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div class="eyebrow">THE SOLUTION</div>
+          <h2>לא עוד ספק שליחים.<br>מערך תפעולי שלם.</h2>
           <p>
-            כשצריך נהגים קבועים, רכבים לפי דרישה, פתרונות קירור, אחסון או קווי
-            הפצה יומיים, מתן לוגיסטיקה בונה סביבכם פתרון תפעולי מדויק. העבודה
-            מתבצעת עם צוות מיומן, תיאום צמוד, זמינות גבוהה ושיח ישיר עם מקבל
-            החלטות שמכיר את השטח.
+            אתם מגדירים את היקף הפעילות ויעדי השירות. אנחנו בונים, מאיישים ומנהלים את כל המערך.
           </p>
         </div>
-        <div class="promise-grid" aria-label="יתרונות">
-          <article>
-            <span>01</span>
-            <h3>ניהול שליחים מקצה לקצה</h3>
-            <p>גיוס, תפעול, תזמון ובקרה של נהגים עם רכבים, קטנועים ומשאיות.</p>
-          </article>
-          <article>
-            <span>02</span>
-            <h3>רכבים לפי צורך</h3>
-            <p>רכב פרטי, מסחרי, קירור או משאית - בהתאם לסוג המשלוח והלקוח.</p>
-          </article>
-          <article>
-            <span>03</span>
-            <h3>יחס אישי וזמין</h3>
-            <p>לא מוקד אנונימי. שיח ישיר עם בעל הבית ומענה מהיר כשמשהו משתנה.</p>
-          </article>
-          <article>
-            <span>04</span>
-            <h3>מתאים לרשתות גדולות</h3>
-            <p>שירות מסודר, עקבי ומקצועי עבור עסקים עם דרישות תפעול גבוהות.</p>
-          </article>
-        </div>
-      </section>
 
-      <section id="services" class="services-section">
-        <div class="section-heading">
-          <p class="section-kicker">הפתרונות שלנו</p>
-          <h2>כל מה שעסק צריך כדי להזיז סחורה, מוצרים ומסמכים בביטחון.</h2>
-        </div>
-        <div class="services-grid">
-          <article class="service-card">
-            <div class="service-icon" aria-hidden="true">🚚</div>
-            <h3>שליחויות והפצה לכל הארץ</h3>
-            <p>משלוחים עירוניים ובין-עירוניים, קווי חלוקה, נקודות מרובות ואיסופים קבועים.</p>
+        <div class="service-grid">
+          <article class="service-card reveal">
+            <div class="icon">⚡</div>
+            <h3>צי ייעודי</h3>
+            <p>התאמת כלי רכב לנפח, משקל, טווח ומאפייני האזור העירוני.</p>
           </article>
-          <article class="service-card">
-            <div class="service-icon" aria-hidden="true">❄</div>
-            <h3>רכבי קירור ומזון</h3>
-            <p>פתרונות מותאמים למסעדות, מטבחים, רשתות מזון ועסקים עם דרישות טמפרטורה.</p>
+          <article class="service-card reveal">
+            <div class="icon">👥</div>
+            <h3>שליחים והעסקה</h3>
+            <p>גיוס, קליטה, הכשרה, משמרות, גיבויים ושימור כוח אדם.</p>
           </article>
-          <article class="service-card">
-            <div class="service-icon" aria-hidden="true">🛵</div>
-            <h3>שליחים צמודים</h3>
-            <p>נהגים אישיים וקבועים עם רכב לפי דרישת הלקוח, כחלק מהמערך היומי שלכם.</p>
+          <article class="service-card reveal">
+            <div class="icon">📍</div>
+            <h3>מוקד ותפעול</h3>
+            <p>שליטה בזמן אמת, טיפול בחריגים, Dispatch וניהול SLA.</p>
           </article>
-          <article class="service-card">
-            <div class="service-icon" aria-hidden="true">📦</div>
-            <h3>אחסון ופתרונות לוגיסטיים</h3>
-            <p>אחסון, מיון, הכנת הזמנות ותיאום הפצה לעסקים שצריכים גב תפעולי יציב.</p>
+          <article class="service-card reveal">
+            <div class="icon">🔧</div>
+            <h3>תחזוקה וזמינות</h3>
+            <p>טיפולים, ביטוחים, טעינה, כלי גיבוי וצמצום downtime.</p>
           </article>
-          <article class="service-card">
-            <div class="service-icon" aria-hidden="true">⏱</div>
-            <h3>מהיום להיום</h3>
-            <p>מענה מהיר למשלוחים דחופים, משימות לא מתוכננות וצרכים תפעוליים בזמן אמת.</p>
+          <article class="service-card reveal">
+            <div class="icon">📊</div>
+            <h3>KPI ודאטה</h3>
+            <p>מדידת תפוקה, זמני אספקה, זמינות צי ועלות לכל משלוח.</p>
           </article>
-          <article class="service-card">
-            <div class="service-icon" aria-hidden="true">🧭</div>
-            <h3>תכנון קווים ותפעול</h3>
-            <p>בניית מסלולים, זמני איסוף והפצה, ניהול עומסים וייעול עלויות שוטפות.</p>
+          <article class="service-card reveal">
+            <div class="icon">↗</div>
+            <h3>Scale מהיר</h3>
+            <p>מתחילים בפיילוט ומרחיבים את המערך בהתאם לביקוש בפועל.</p>
           </article>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section id="clients" class="testimonials-section">
-        <div class="section-heading">
-          <p class="section-kicker">לקוחות מספרים</p>
-          <h2>כשיש עומס, שינוי או משלוח דחוף - צריך ספק שאפשר לסמוך עליו.</h2>
+    <section id="how" class="section section-dark">
+      <div class="container">
+        <div class="section-heading light reveal">
+          <div class="eyebrow">HOW IT WORKS</div>
+          <h2>Fleet as a Service</h2>
+          <p>מודל פשוט ללקוח. מערכת תפעולית מלאה מאחורי הקלעים.</p>
         </div>
-        <div class="testimonial-grid">
-          <blockquote>
-            <p>"העבודה מול מתן לוגיסטיקה נתנה לנו שקט. יש עם מי לדבר, יש פתרונות, והמשלוחים יוצאים בזמן."</p>
-            <cite>מנהל תפעול, רשת קמעונאית</cite>
-          </blockquote>
-          <blockquote>
-            <p>"היינו צריכים מערך קבוע למסעדות עם זמינות גבוהה. קיבלנו צוות שמבין את הלחץ של השטח."</p>
-            <cite>בעלים, קבוצת מסעדות</cite>
-          </blockquote>
-          <blockquote>
-            <p>"היתרון הגדול הוא הגמישות. יום אחד קו קירור, יום אחר נהג צמוד - והכל בתיאום מהיר."</p>
-            <cite>מנהלת משרד, חברה ארצית</cite>
-          </blockquote>
-        </div>
-      </section>
 
-      <section class="process-section">
-        <div class="section-heading">
-          <p class="section-kicker">איך מתחילים</p>
-          <h2>בודקים את הצורך, בונים פתרון, ומוציאים את המשלוחים לדרך.</h2>
-        </div>
-        <ol class="process-list">
-          <li>
-            <strong>אפיון קצר</strong>
-            <span>מה שולחים, לאן, באיזו תדירות, ומה רמת השירות הנדרשת.</span>
-          </li>
-          <li>
-            <strong>התאמת כלי רכב ושליחים</strong>
-            <span>קטנועים, רכבים פרטיים, מסחריות, קירור או משאיות לפי הצורך.</span>
-          </li>
-          <li>
-            <strong>תפעול שוטף ובקרה</strong>
-            <span>זמינות, תיאום, מעקב ושיפור מתמיד של הקווים והעלויות.</span>
-          </li>
-        </ol>
-      </section>
-
-      <section id="contact" class="contact-section">
-        <div class="contact-copy">
-          <p class="section-kicker">השאירו פרטים</p>
-          <h2>צריכים פתרון שליחות או לוגיסטיקה קבוע לעסק?</h2>
-          <p>
-            השאירו פרטים ונחזור אליכם עם התאמה ראשונית: משלוחים מהיום להיום,
-            נהגים צמודים, רכבי קירור, אחסון או ניהול מערך שליחים מלא.
-          </p>
-          <div class="contact-points">
-            <span>מענה מהיר לעסקים</span>
-            <span>שירות בכל הארץ</span>
-            <span>פתרונות לפי דרישת לקוח</span>
+        <div class="steps">
+          <div class="step reveal">
+            <div class="step-number">01</div>
+            <h3>מגדירים צורך</h3>
+            <p>היקף משלוחים, אזור פעילות, שעות, SLA ונפח המטען.</p>
+          </div>
+          <div class="step reveal">
+            <div class="step-number">02</div>
+            <h3>בונים צי</h3>
+            <p>בחירת הכלים, כמות, גיבוי, אחסנה, טעינה ותחזוקה.</p>
+          </div>
+          <div class="step reveal">
+            <div class="step-number">03</div>
+            <h3>מפעילים צוות</h3>
+            <p>גיוס והכשרה של שליחים לצד מנהלי משמרת ובקרה.</p>
+          </div>
+          <div class="step reveal">
+            <div class="step-number">04</div>
+            <h3>מודדים ומתרחבים</h3>
+            <p>KPI, ביצועים, Unit Economics והגדלת פעילות לפי הצורך.</p>
           </div>
         </div>
-        <form class="lead-form" id="leadForm">
+
+        <div class="formula reveal">
+          <span>Vehicle</span><b>+</b><span>Courier</span><b>+</b><span>Operations</span><b>+</b>
+          <span>SLA</span><b>+</b><span>Data</span><b>=</b><strong>FleetOps</strong>
+        </div>
+      </div>
+    </section>
+
+    <section id="fleet" class="section">
+      <div class="container split">
+        <div class="fleet-image reveal">
+          <img src="assets/urban-cargo-vehicle.png" alt="רכב מטען עירוני" />
+          <div class="fleet-image-caption">פתרונות מותאמים לאזורים צפופים ולמשלוחים בנפח גדול</div>
+        </div>
+
+        <div class="fleet-copy reveal">
+          <div class="eyebrow">PURPOSE-BUILT FLEET</div>
+          <h2>הכלי הנכון לכל משימה</h2>
+          <p>
+            קטנועי מטען, אופני מטען, תלת־אופן ורכבים עירוניים קומפקטיים.
+            הבחירה נעשית לפי הביצועים הנדרשים, ולא לפי כלי אחד קבוע.
+          </p>
+
+          <ul class="check-list">
+            <li>נפח אחסון גדול יותר מכלי שליחויות רגיל</li>
+            <li>התאמה לרחובות צפופים וחניה עירונית</li>
+            <li>אפשרות לצי חשמלי וחסכוני</li>
+            <li>יכולת מיתוג מלאה עבור הלקוח</li>
+            <li>כלי גיבוי ותוכנית תחזוקה מובנית</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="why" class="section section-soft">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div class="eyebrow">WHY FLEETOPS</div>
+          <h2>כתובת אחת לכל המערך</h2>
+        </div>
+
+        <div class="why-grid">
+          <div class="metric reveal">
+            <strong>1</strong>
+            <span>גורם אחראי מול הלקוח</span>
+          </div>
+          <div class="metric reveal">
+            <strong>360°</strong>
+            <span>ניהול מקצה לקצה</span>
+          </div>
+          <div class="metric reveal">
+            <strong>24/7</strong>
+            <span>יכולת בקרה לפי מתווה השירות</span>
+          </div>
+          <div class="metric reveal">
+            <strong>Scale</strong>
+            <span>מהפיילוט למאות ואלפי משלוחים</span>
+          </div>
+        </div>
+
+        <div class="quote-card reveal">
+          <p>
+            “במקום לנהל ספקי רכב, שליחים, תחזוקה, משמרות ומערכות בנפרד —
+            הלקוח מקבל יחידת תפעול אחת עם אחריות ברורה על התוצאה.”
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="container cta-box reveal">
+        <div>
+          <div class="eyebrow">START WITH A PILOT</div>
+          <h2>יש לכם משלוחים שלא מתאימים לצי הרגיל?</h2>
+          <p>נבנה עבורכם פיילוט ייעודי ונמדוד ביצועים לפני הרחבה.</p>
+        </div>
+        <a class="btn btn-white" href="#contact">אני רוצה לשמוע עוד</a>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal">
+          <div class="eyebrow">LET'S TALK</div>
+          <h2>בואו נבנה את הצי הבא שלכם</h2>
+          <p>
+            השאירו פרטים ונחזור אליכם לבחינת הצורך, נפח הפעילות והמתווה המתאים.
+          </p>
+
+          <div class="contact-note">
+            <strong>FleetOps</strong>
+            <span>Fleet as a Service</span>
+            <span>Large Orders. Small Footprint.</span>
+          </div>
+        </div>
+
+        <form class="lead-form reveal" id="leadForm">
           <label>
             שם מלא
-            <input type="text" name="name" autocomplete="name" required />
+            <input type="text" name="name" required placeholder="השם שלך">
           </label>
+
           <label>
-            טלפון
-            <input type="tel" name="phone" autocomplete="tel" required />
+            חברה
+            <input type="text" name="company" placeholder="שם החברה">
           </label>
+
+          <div class="form-row">
+            <label>
+              טלפון
+              <input type="tel" name="phone" required placeholder="05X-XXXXXXX">
+            </label>
+            <label>
+              אימייל
+              <input type="email" name="email" placeholder="name@company.com">
+            </label>
+          </div>
+
           <label>
-            שם העסק
-            <input type="text" name="business" autocomplete="organization" />
+            ספרו לנו בקצרה על הצורך
+            <textarea name="message" rows="4" placeholder="כמות משלוחים, אזור פעילות, סוג המטען..."></textarea>
           </label>
-          <label>
-            במה אפשר לעזור?
-            <select name="service" required>
-              <option value="">בחרו שירות</option>
-              <option>שליחויות מהיום להיום</option>
-              <option>נהגים צמודים עם רכב</option>
-              <option>רכבי קירור</option>
-              <option>אחסון ולוגיסטיקה</option>
-              <option>ניהול מערך שליחים</option>
-            </select>
-          </label>
-          <label class="full-width">
-            פרטים נוספים
-            <textarea name="message" rows="4" placeholder="ספרו בקצרה על הצורך, אזורי חלוקה ותדירות"></textarea>
-          </label>
-          <button class="primary-btn full-width" type="submit">שלחו פנייה</button>
-          <p class="form-note" id="formNote">הטופס יפתח הודעת מייל מוכנה עם הפרטים שמילאתם.</p>
+
+          <button type="submit" class="btn btn-primary submit-btn">שליחת פרטים</button>
+          <p class="form-status" id="formStatus"></p>
         </form>
-      </section>
-    </main>
+      </div>
+    </section>
+  </main>
 
-    <footer class="site-footer">
-      <p>© <span id="year"></span> L.K Consulting 052-4332333</p>
-      <a href="#top">חזרה למעלה</a>
-    </footer>
+  <footer>
+    <div class="container footer-inner">
+      <div>
+        <strong>FleetOps</strong>
+        <span>Fleet as a Service</span>
+      </div>
+      <div class="footer-copy">© <span id="year"></span> FleetOps. All rights reserved.</div>
+    </div>
+  </footer>
 
-    <script src="script.js?v=20260623-2"></script>
-  </body>
+  <script src="script.js"></script>
+</body>
 </html>
